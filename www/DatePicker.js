@@ -45,7 +45,7 @@ DatePicker.prototype.show = function(options, cb) {
     }
 
     if (options.date) {
-        options.date = formatDate(options.date);
+        //options.date = formatDate(options.date);
     }
 
     if (options.minDate) {
