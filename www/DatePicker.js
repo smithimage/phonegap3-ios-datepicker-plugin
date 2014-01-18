@@ -29,7 +29,7 @@ DatePicker.prototype.show = function(options, cb) {
       return date;
     };
 
-    var formatDate = function(date){
+   /* var formatDate = function(date){
       date = date.getFullYear() 
             + "-" 
             + padDate(date.getMonth()+1) 
@@ -42,18 +42,18 @@ DatePicker.prototype.show = function(options, cb) {
             + ":00Z";
 
       return date
-    }
+    }*/
 
     if (options.date) {
         //options.date = formatDate(options.date);
     }
 
     if (options.minDate) {
-        options.minDate = formatDate(options.minDate);
+       // options.minDate = formatDate(options.minDate);
     }
 
     if (options.maxDate) {
-        options.maxDate = formatDate(options.maxDate);
+       // options.maxDate = formatDate(options.maxDate);
     }
 
     var defaults = {
