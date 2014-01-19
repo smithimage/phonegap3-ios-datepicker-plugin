@@ -66,12 +66,13 @@
 
 
 - (void)cancelAction:(id)sender {
+  [self jsDateSelected];
   [self hide];
 }
 
 
 - (void)dateChangedAction:(id)sender {
-  [self jsDateSelected];
+//  [self jsDateSelected];
 }
 
 #pragma mark - JS API
